@@ -1,9 +1,14 @@
 
-🧾 Gerekli Dosyalar ve Kurulum
+🧾 ÖNEMLİ!!!!
 Gerekli Yazılımlar:
 Bir kod düzenleyici (VS Code önerilir)
 
 Node.js (https://nodejs.org üzerinden indirip kurun)
+
+Twitter'dan veri almanız gerekiyor. Kısaca : Daha Fazla > Ayarlar ve Gizlilik > Hesabın > Verilerinin bir arşivini indir.
+Arşiv elinize ulaştıktan sonra indirdiğiniz dosyanın içine "Tweets.js" dosyasını atmanız gereklidir.
+
+İndirdiğiniz "tweets.js" dosyasını açın ve ilk satırdaki parantez öncesi kodu "export default" ile değiştirin. 
 
 npm install komutunun çalışabilmesi için Node.js yüklü olmalıdır.
 
