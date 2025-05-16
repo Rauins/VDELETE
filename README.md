@@ -28,6 +28,8 @@ Başlangıç tarihi: 2024-01-01
 Bitiş tarihi: 2024-12-31
 
 ⚙️ Nasıl Çalıştırılır?
+VDelete.js dosyasına sağ tıklayıp kod düzenleyicisi ile birlikte açın. CTRL + F kombinasyonu ile "rauinks" araması yapın. Çıkan sonuçtaki yere "rauinks" nickini silip kendi nickinizi yerleştirin.
+
 İndirdiğiniz klasörde boş bir alana sağ tıklayıp
 “Terminalde Aç” seçeneğine tıklayın.
 
