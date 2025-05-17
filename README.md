@@ -72,6 +72,14 @@ Script uygun tweetleri otomatik olarak silmeye başlayacaktır.
 
 ---
 
+## 🛠️ Kullanıcı Adı Ayarı:
+
+`VDelete.js` dosyasını bir kod editörü veya Not Defteri ile açın.
+
+"**rauinks**" kelimesini aratın ve kendi Twitter kullanıcı adınızla değiştirin.
+
+---
+
 ## ⛔️ Silmeyi Durdurmak İçin:
 
 Terminalde:
