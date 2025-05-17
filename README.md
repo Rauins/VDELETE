@@ -1,58 +1,88 @@
+# 💾 ÖNEMLİ BİLGİLER
 
-🧾 ÖNEMLİ!!!!
-Gerekli Yazılımlar:
-Bir kod düzenleyici (VS Code önerilir)
+## 💪 Gerekli Yazılımlar:
 
-Node.js (https://nodejs.org üzerinden indirip kurun)
+* Bir kod editörü (VS Code önerilir)
+* [Node.js](https://nodejs.org) (yüklenmeden proje çalışmaz)
 
-Twitter'dan veri almanız gerekiyor. Kısaca : Daha Fazla > Ayarlar ve Gizlilik > Hesabın > Verilerinin bir arşivini indir.
-Arşiv elinize ulaştıktan sonra indirdiğiniz dosyanın içine "Tweets.js" dosyasını atmanız gereklidir.
+## 📅 Twitter Verisi Gerekli
 
-İndirdiğiniz "tweets.js" dosyasını açın ve ilk satırdaki parantez öncesi kodu "export default" ile değiştirin. 
+1. Twitter'dan **veri arşivinizi** indirin:
+   `Daha Fazla > Ayarlar ve Gizlilik > Hesap > Twitter verilerin > Arşiv iste`
 
-npm install komutunun çalışabilmesi için Node.js yüklü olmalıdır.
+2. Arşiv size ulaştıktan sonra içinden `tweets.js` dosyasını klasöre ekleyin.
 
-🧪 Filtreleme Özelliği
-Filtre.exe'yi çalıştırarak:
-İçerik filtresi ekleyebilirsiniz:
-Örnek giriş:
-Elma, Armut, Pizza, Yumurta
-(Boş bırakmak isterseniz sadece Enter'a basabilirsiniz.)
+3. `tweets.js` dosyasının en başındaki tanımı şu şekilde değiştirin:
 
-Beğeni filtresi belirleyebilirsiniz:
-Örneğin: 5 yazarsanız 5 beğeniden az olan tweetler silinir.
-(Boş bırakmayın, minimum "1" girmeniz önerilir.)
+   ```js
+   export default [
+     ...
+   ]
+   ```
 
-Tarih aralığı girin (tire kullanarak):
-Başlangıç tarihi: 2024-01-01
-Bitiş tarihi: 2024-12-31
+> `npm install` komutu için **Node.js** kurulu olmalıdır.
 
-⚙️ Nasıl Çalıştırılır?
-VDelete.js dosyasına sağ tıklayıp kod düzenleyicisi ile birlikte açın. CTRL + F kombinasyonu ile "rauinks" araması yapın. Çıkan sonuçtaki yere "rauinks" nickini silip kendi nickinizi yerleştirin.
+---
 
-İndirdiğiniz klasörde boş bir alana sağ tıklayıp
-“Terminalde Aç” seçeneğine tıklayın.
+## 🤪 Filtreleme Özelliği (Filtre.exe)
 
-Terminale şu komutu yazın ve enter'a basın:
+### 🔤 Kelime Filtresi:
 
-"npm install"
-Bu, gerekli kütüphaneleri (örneğin playwright) yükleyecektir.
+İstediğiniz kelimeleri şu şekilde girin:
+`Elma, Armut, Pizza, Yumurta`
+Hiç kelime filtresi istemiyorsanız sadece **Enter**'a basın.
 
-Kurulum tamamlandıktan sonra aşağıdaki komutu çalıştırın:
+### ❤️ Beğeni Filtresi:
 
-"node VDelete.js"
+Örnek: `5` girerseniz 5 beğeni altındaki tweetler hedef alınır.
+(Boş bırakmayın, minimum `1` önerilir.)
 
-Açılan tarayıcıda Twitter hesabınıza giriş yapın.
+### 📅 Tarih Aralığı:
 
-Giriş yaptıktan sonra terminale geri dönüp Enter tuşuna basın.
+Tarihler tire (-) ile olmalıdır:
+**Başlangıç:** `2024-01-01`
+**Bitiş:** `2024-12-31`
 
-Script otomatik olarak uygun tweetleri silmeye başlayacaktır.
+---
 
-⛔ Silmeyi Durdurmak İçin
-Terminal ekranında:
-CTRL + C kombinasyonunu kullanarak işlemi durdurabilirsiniz.
+## ⚙️ Nasıl Çalıştırılır?
 
-❓ Yardım ve İletişim
-Her türlü soru ve destek için:
-📩 https://x.com/rauinks
+1. Proje klasöründe boş bir alana **sağ tıklayıp**
+   "**Terminalde Aç**" seçeneğine tıklayın.
 
+2. Aşağıdaki komutu çalıştırın:
+
+   ```
+   npm install
+   ```
+
+   Bu, gerekli modülleri (Playwright gibi) yükler.
+
+3. Kurulum tamamlandıktan sonra şu komutu yazın:
+
+   ```
+   node VDelete.js
+   ```
+
+4. Açılan tarayıcıdan **Twitter hesabınıza giriş yapın.**
+
+5. Giriş yaptıktan sonra terminal ekranına dönüp **Enter** tuşuna basın.
+
+Script uygun tweetleri otomatik olarak silmeye başlayacaktır.
+
+---
+
+## ⛔️ Silmeyi Durdurmak İçin:
+
+Terminalde:
+
+```
+CTRL + C
+```
+
+---
+
+## ❓ Yardım ve İletişim:
+
+Her türlü destek ve iletişim için:
+📩 [https://x.com/rauinks](https://x.com/rauinks)
