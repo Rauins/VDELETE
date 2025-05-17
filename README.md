@@ -2,7 +2,7 @@
 
 ## 💪 Gerekli Yazılımlar:
 
-* Bir kod editörü (VS Code önerilir)
+* Bir kod editörü (Kod editörünüz yoksa not defteri uygulamasından gerekli düzenlemeleri yapabilirsiniz.)
 * [Node.js](https://nodejs.org) (yüklenmeden proje çalışmaz)
 
 ## 📅 Twitter Verisi Gerekli
@@ -76,7 +76,7 @@ Script uygun tweetleri otomatik olarak silmeye başlayacaktır.
 
 `VDelete.js` dosyasını bir kod editörü veya Not Defteri ile açın.
 
-"**rauinks**" kelimesini aratın ve kendi Twitter kullanıcı adınızla değiştirin.
+"**rauinks**" kelimesini aratın ve "rauinks" kısmını kendi Twitter kullanıcı adınızla değiştirin.
 
 ---
 
